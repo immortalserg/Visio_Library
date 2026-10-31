@@ -1,18 +1,23 @@
-# Visio Library
+# Библиотека фигур Visio
 
-An open-source collection of Microsoft Visio masters and stencils.
+Открытая библиотека мастеров и трафаретов Microsoft Visio.
 
-## Repository structure
+## Назначение проекта
 
-The repository stores the extracted contents of Visio stencil packages (VSSX),
-preserving their XML structure, relationships, and resources.
+Проект предназначен для хранения исходных файлов библиотек Visio, повторного использования фигур и разработки инструментов для сопровождения зависимых мастеров и их обновления.
 
-## Working with the library
+## Структура репозитория
 
-Files are stored in an editable, unpacked format to support version control,
-reuse, modification, and automated rebuilding of Visio stencil packages.
+В репозитории хранятся распакованные содержимые пакетов Visio (VSSX). При этом сохраняются XML-структура, связи между частями пакета и дополнительные ресурсы.
 
-## License
+Такой формат хранения упрощает анализ, сравнение версий, изменение и автоматическую сборку библиотек Visio.
 
-This project is licensed under the MIT License.
-See [LICENSE](LICENSE) for details.
+## Правила разработки
+
+Все описания и документация проекта ведутся на русском языке.
+
+Основные архитектурные принципы, правила работы с исходными мастерами, идентификаторами, зависимостями, обновлениями и тестированием описаны в документе [«Правила разработки»](ПРАВИЛА_РАЗРАБОТКИ.md).
+
+## Лицензия
+
+Проект распространяется на условиях лицензии MIT. Подробности приведены в файле [LICENSE](LICENSE).
